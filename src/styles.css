@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+.dayEvents {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  grid-template-rows: repeat(24);
+}
+.dayEvents .time-label {
+  justify-content: center;
+}
+
+.task-marker {
+  position: absolute;
+  background-color: red;
+  width: 100%;
+  border-radius: 10px;
+}

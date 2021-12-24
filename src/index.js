@@ -68,7 +68,7 @@ function getXposition(usedIntervals, startY, endY) {
       xPosition += 40;
     }
   });
-  return xPosition + 70;
+  return xPosition + 80;
 }
 
 function getYfromTimeString(timeString) {
@@ -91,22 +91,22 @@ generateTimeLabels(containers.datalabelContainer, containers.markerContainer);
 
 const tasks = [
   {
-    label: "thoongu da",
-    startTime: "1:00 am",
-    endTime: "5:30 pm",
-    color: "blue"
+    label: "sleep",
+    startTime: "0:00 am",
+    endTime: "5:30 am",
+    color: "#697586"
   },
   {
-    label: "coffee break",
+    label: "leisure",
     startTime: "2:00 pm",
     endTime: "3:30 pm",
-    color: "red"
+    color: "#DACFDD"
   },
   {
     label: "tea break",
-    startTime: "2:00 pm",
-    endTime: "2:30 pm",
-    color: "blue"
+    startTime: "3:00 pm",
+    endTime: "3:30 pm",
+    color: "#E1A2AB"
   }
 ];
 for (let taskIdx in tasks) {
